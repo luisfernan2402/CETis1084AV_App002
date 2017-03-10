@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mx.edu.cetis108.cetis1084av_app002.MainActivity">
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="numero 1"
+    />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="numero 2"
+        />
+
+    <LinearLayout
+
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Suma"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Sumar"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Restar"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Mult"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/div"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Div"
+            android:textSize="15sp"
+            />
+
+       </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="00"
+        android:gravity="center"
+        android:textSize="120sp"
+        />
+
+
+</LinearLayout>
+
